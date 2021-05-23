@@ -1,0 +1,14 @@
+{
+    "cowinBaseUrl" : "https://cdn-api.co-vin.in/api",
+    "cowinMetaDataList" : {
+        "getStates" : "/v2/admin/location/states",
+        "getDistrics" : "/v2​/admin​/location​/districts​/:state_id"
+    },
+    "cowinAPIList" : {
+        "findByPin" : "/v2/appointment/sessions/public/findByPin",
+        "findByDistrict" : "/v2/appointment/sessions/public/findByDistrict",
+        "findByLatLong" : "/v2/appointment/centers/public/findByLatLong",
+        "calenderByPin" : "/v2/appointment/sessions/public/calendarByPin",
+        "calenderByDistrict" : "​/v2​/appointment​/sessions​/public​/calendarByDistrict"
+    }
+}
